@@ -25,20 +25,6 @@ Page({
   onUnload: function () {
     // Do something when page close.
     console.log('onUnload');
-  },
-  touchstartDemo: function (){
-    console.log('touchstartDemo');
-  },
-  touchmoveDemo: function () {
-    console.log('touchmoveDemo');
-  },
-  touchendDemo: function () {
-    console.log('touchendDemo');
-  },
-  tapDemo: function () {
-    console.log('tapDemo');
-  },
-  longpressDemo: function () {
-    console.log('longpressDemo');
   }
+  
 })

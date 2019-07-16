@@ -1,8 +1,9 @@
 <!--index.wxml-->
+<wxs module="wxsdemo" src="./index.wxs"></wxs>
 <view>
-  <button bindtouchstart="touchstartDemo">touchstart</button>
-  <button bindtouchmove="touchmoveDemo">touchmove</button>
-  <button bindtouchend="touchendDemo">touchend</button>
-  <button bindtap="tapDemo">tap</button>
-  <button bindlongpress="longpressDemo">longpress</button>
+  <button bindtouchstart="{{wxsdemo.touchstartDemo}}">touchstart</button>
+  <button bindtouchmove="{{wxsdemo.touchmoveDemo}}">touchmove</button>
+  <button bindtouchend="{{wxsdemo.touchendDemo}}">touchend</button>
+  <button bindtap="{{wxsdemo.tapDemo}}">tap</button>
+  <button bindlongpress="{{wxsdemo.longpressDemo}}">longpress</button>
 </view>

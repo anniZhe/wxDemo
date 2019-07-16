@@ -1,0 +1,41 @@
+var touchstartDemo = function () {
+  console.log('touchstartDemo');
+};
+var touchmoveDemo = function () {
+  console.log('touchmoveDemo');
+};
+var touchendDemo = function () {
+  console.log('touchendDemo');
+};
+var tapDemo = function () {
+  console.log('tapDemo');
+}
+var longpressDemo = function () {
+  console.log('longpressDemo');
+}
+module.exports = {
+  touchstartDemo: touchstartDemo,
+  touchmoveDemo: touchmoveDemo,
+  touchendDemo: touchendDemo,
+  tapDemo: tapDemo,
+  longpressDemo: longpressDemo
+}
+
+
+// module.exports = {
+//   touchstartDemo: function () {
+//     console.log('touchstartDemo');
+//   },
+//   touchmoveDemo: function () {
+//     console.log('touchmoveDemo');
+//   },
+//   touchendDemo: function () {
+//     console.log('touchendDemo');
+//   },
+//   tapDemo: function () {
+//     console.log('tapDemo');
+//   },
+//   longpressDemo: function () {
+//     console.log('longpressDemo');
+//   }
+// }
