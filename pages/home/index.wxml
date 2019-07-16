@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view>
+  <button bindtouchstart="touchstartDemo">touchstart</button>
+  <button bindtouchmove="touchmoveDemo">touchmove</button>
+  <button bindtouchend="touchendDemo">touchend</button>
+  <button bindtap="tapDemo">tap</button>
+  <button bindlongpress="longpressDemo">longpress</button>
+</view>
