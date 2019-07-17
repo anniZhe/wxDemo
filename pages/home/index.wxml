@@ -1,9 +1,46 @@
-<!--index.wxml-->
-<wxs module="wxsdemo" src="./index.wxs"></wxs>
 <view>
-  <button bindtouchstart="{{wxsdemo.touchstartDemo}}">touchstart</button>
-  <button bindtouchmove="{{wxsdemo.touchmoveDemo}}">touchmove</button>
-  <button bindtouchend="{{wxsdemo.touchendDemo}}">touchend</button>
-  <button bindtap="{{wxsdemo.tapDemo}}">tap</button>
-  <button bindlongpress="{{wxsdemo.longpressDemo}}">longpress</button>
+  <view class="home-banner">
+    <swiper indicator-dots="{{swipermap.indicatorDots}}"
+            indicatorColor="{{swipermap.indicatorColor}}"
+            indicatorActiveColor="{{swipermap.indicatorActiveColor}}"
+            autoplay="{{swipermap.autoplay}}" 
+            circular="{{swipermap.circular}}">
+      <swiper-item wx:for="{{imgUrls}}" wx:for-index="in" wx:for-item="item" wx:key="url">
+        <image src="{{item.url}}" class="slide-image"  height="120"/>
+        <text class="home-banner-describe">{{item.descrile}}</text>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view>
+    <title-component titile="example" />
+    <view class="core">
+      <view class="core-card">
+        <view class="core-card-square">
+          好似哦啊爱殴打阿斯顿敬爱的监考的时间阿涉及到皮烤脾气阿的江撒拉进坑死哦去啊位于多哈扩大到家啊 u 压接电话阿海嗲和剧情安达 u 额啊u 我企鹅回忆去维护
+        </view>
+        <view class="core-card-circle">啦啦</view>
+      </view>
+      <view class="core-card">
+        <view class="core-card-square">
+          好似哦啊爱殴打阿斯顿敬爱的监考的时间阿涉及到皮烤脾气阿的江撒拉进坑死哦去啊位于多哈扩大到家啊 u 压接电话阿海嗲和剧情安达 u 额啊u 我企鹅回忆去维护
+        </view>
+        <view class="core-card-circle">啦啦</view>
+      </view>
+      <view class="core-card">
+        <view class="core-card-square">
+          好似哦啊爱殴打阿斯顿敬爱的监考的时间阿涉及到皮烤脾气阿的江撒拉进坑死哦去啊位于多哈扩大到家啊 u 压接电话阿海嗲和剧情安达 u 额啊u 我企鹅回忆去维护
+        </view>
+        <view class="core-card-circle">啦啦</view>
+      </view>
+      <view class="core-card">
+        <view class="core-card-square">
+          好似哦啊爱殴打阿斯顿敬爱的监考的时间阿涉及到皮烤脾气阿的江撒拉进坑死哦去啊位于多哈扩大到家啊 u 压接电话阿海嗲和剧情安达 u 额啊u 我企鹅回忆去维护
+        </view>
+        <view class="core-card-circle">啦啦</view>
+      </view>
+    </view>
+  </view>
+  <view>
+  </view>
+  
 </view>

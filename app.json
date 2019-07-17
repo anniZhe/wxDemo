@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/home/index",
-    "pages/logs/logs"
+    "pages/business/business",
+    "pages/case/case",
+    "pages/aboutUs/aboutUs"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -12,20 +14,33 @@
     "backgroundColor": "#CD5C5C"
   },
   "tabBar": {
-    "color": "#87CEFA",
-    "selectedColor": "#6495ED",
-    "backgroundColor": "#8FBC8F",
+    "color": "#3CB371",
+    "selectedColor": "#228B22",
+    "backgroundColor": "#fff",
     "list": [
       {
         "pagePath": "pages/home/index",
         "text": "首页"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "log"
+        "pagePath": "pages/business/business",
+        "text": "业务"
+      },
+      {
+        "pagePath": "pages/case/case",
+        "text": "业绩"
+      },
+      {
+        "pagePath": "pages/aboutUs/aboutUs",
+        "text": "关于我们"
       }
     ],
     "position": "bottom"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "系统需要获取您当前所在位置"
+    }
   },
   "sitemapLocation": "sitemap.json"
 }

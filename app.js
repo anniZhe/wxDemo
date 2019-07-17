@@ -34,6 +34,8 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    doc: require('./doc/doc.js')
   }
+  
 })

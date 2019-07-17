@@ -1,0 +1,9 @@
+<view>
+  <view class="analysis-title">
+    <view class="title-sporadic"></view>
+    <view class="title-sporadic"></view>
+    <view class="title-text">{{ title }}</view>
+    <view class="title-sporadic"></view>
+    <view class="title-sporadic"></view>
+  </view>
+</view>
